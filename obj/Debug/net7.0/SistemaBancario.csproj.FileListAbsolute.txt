@@ -1,0 +1,15 @@
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\bin\Debug\net7.0\SistemaBancario.exe
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\bin\Debug\net7.0\SistemaBancario.deps.json
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\bin\Debug\net7.0\SistemaBancario.runtimeconfig.json
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\bin\Debug\net7.0\SistemaBancario.dll
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\bin\Debug\net7.0\SistemaBancario.pdb
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\obj\Debug\net7.0\SistemaBancario.csproj.AssemblyReference.cache
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\obj\Debug\net7.0\SistemaBancario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\obj\Debug\net7.0\SistemaBancario.AssemblyInfoInputs.cache
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\obj\Debug\net7.0\SistemaBancario.AssemblyInfo.cs
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\obj\Debug\net7.0\SistemaBancario.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\obj\Debug\net7.0\SistemaBancario.dll
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\obj\Debug\net7.0\refint\SistemaBancario.dll
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\obj\Debug\net7.0\SistemaBancario.pdb
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\obj\Debug\net7.0\SistemaBancario.genruntimeconfig.cache
+C:\Users\Bruno\OneDrive - Sociedade Educacional do Espírito Santo - UVV\UVV - Atividades\23.1 POO2\Projetos\SistemaBancario\obj\Debug\net7.0\ref\SistemaBancario.dll
