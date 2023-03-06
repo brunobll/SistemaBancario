@@ -1,47 +1,54 @@
 using System; 
 
 namespace Cadastro{
-    public class Cliente {
-        private string? nome; 
-        private string? sobrenome;
-        private long codigoPessoaFisica; //CPF
-        private int numeroConta; 
-        private long saldoBancario; 
+    public class Conta {
+        private string? nomeCompleto; 
+        private long codigoPessoaFisica;
+        private decimal saldoBancario;  
+        
 
-        public Cliente(){
-            this.nome = this.sobrenome = " "; 
-            this.codigoPessoaFisica = 0; 
-            this.numeroConta = 0; 
-            this.saldoBancario = 0;
+        public Conta(string? nomeCompleto, int codigoPessoaFisica, int saldoBancario){
+            this.nomeCompleto = nomeCompleto; 
+            this.codigoPessoaFisica = codigoPessoaFisica;
+            this.saldoBancario = saldoBancario;
 
         }
 
-        public void setNome(string? nome) { this.nome = nome; }
-        public void setSobrenome(string? sobrenome) { this.sobrenome = sobrenome; }
+        //setters
+        public void setNomeCompleto(string? nomeCompleto) { this.nomeCompleto = nomeCompleto; }
 
         public void setCPF(long codigoPessoaFisica) { this.codigoPessoaFisica = codigoPessoaFisica; }
 
-        public void setNumeroConta(int numeroConta) { this.numeroConta = numeroConta; }
+        public void setSaldoBancario(decimal saldoBancario) { this.saldoBancario = saldoBancario; }
 
-
-        public void setSaldoBancario(long saldoBancario) { this.saldoBancario = saldoBancario; }
-
-        public string getNome() { 
-            return (nome is not null ? nome : " "); 
-        }
-        public string getSobrenome() { 
-            return (sobrenome is not null ? sobrenome : " ");
+        //getters
+        public string getNomeCompleto() { 
+            return (nomeCompleto is not null ? nomeCompleto : " "); 
         }
 
-        public string getNomeCompleto() { return ("${getNome()} {getSobrenome()}"); }
         public long getCPF() { return codigoPessoaFisica; }
 
-        public int getNumeroConta() { return numeroConta; }
+        public decimal getSaldoBancario() { return saldoBancario; }
+ 
+        //deposito
+        public decimal depositarValor(decimal valorInformado){
+            
+            this.saldoBancario += valorInformado; 
+            Console.WriteLine("\nValor depositado com sucesso!");
+            Console.WriteLine($"\nSaldo atual: {saldoBancario}");
 
-        public long getSaldoBancario() { return saldoBancario; }
+            return 0; 
+        }
 
-
-
+        public decimal sacarValor(decimal valorInformado){
+            
+            Console.WriteLine($"\nSaldo atual: {saldoBancario}");
+            this.saldoBancario -= valorInformado; 
+            Console.WriteLine($"\nSaldo novo: {saldoBancario}");
+            Console.WriteLine("\nValor sacado com sucesso!");
+    
+            return 0; 
+        }
 
     }
 }
